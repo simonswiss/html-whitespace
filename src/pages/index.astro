@@ -1,0 +1,30 @@
+---
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body>
+    <div>
+      {
+        /* 
+					Prettier formats the closing of the </span></a> 
+					in a way that leaves a white space in the 
+					browser rendering.
+
+					If you look at the index page in the browser, 
+					you will a space before the period.
+				*/
+      }
+      <a href="#">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt officia nemo dolores
+        commodi fuga quibusdam limit <span> temporibus repellendus neque</span>
+      </a>.
+    </div>
+  </body>
+</html>
